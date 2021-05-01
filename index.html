@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-
+    scale=1.0">
+    <tittle>Challenge 3</tittle>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,100;1,300&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head> 
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html">LOGO</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME </a></li>
+                    <li><a href="">WORK </a></li>
+                    <li><a href="">CONTACT </a></li>
+                    <li><a href="">ABOUT ME </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>PLAY TRADITIONAL GAME</h1>
+    <P>Experience new traditional game play</P>
+    <a href="" class="play-btn">PLAY NOW</a>
+</div>
+
+    </section>
+
+<!----- The Games ----->
+
+<section class="thegames">
+    <p>What's so special?</p>
+    <h1>THE GAMES</h1>
+    <div class="row">
+        <div class="thegames-col">
+            <img src="assets/rockpaperstrategy-1600.jpg">
+        </div>
+    </div>
+
+
+</section>
+
+<!----- FEATURES ----->
+
+<section class="features">
+    <p>What's so special?</p>
+    <h1>FEATURES</h1>
+</section>
+
+<!----- SYSTEM REQUIREMENTS ----->
+
+<section class="systemrequirements">
+    <p>Can my computer run this game?</p>
+    <h1>SYSTEM REQUIREMENTS</h1>
+</section>
+
+
+
+<!-----JavaScript for Toggle menu----->
+<script>
+    var nav-links = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }    
+</script>
+
+
+
+</body>  
+</html>
